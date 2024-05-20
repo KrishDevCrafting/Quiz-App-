@@ -61,6 +61,18 @@ export const NavBar = () => {
           </div>
         </nav>
       </div>
+
+      <div className="img">
+        <p>CHALLEN YOUR BRAIN WITH GEEK QUIZ</p>
+      </div>
+      <div className="home">
+        <h1>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, totam
+          nam exercitationem cupiditate nulla ullam praesentium ipsa
+          necessitatibus enim nemo error sapiente, similique quidem soluta
+          quisquam porro atque, fugit voluptatibus!
+        </h1>
+      </div>
     </>
   );
 };
