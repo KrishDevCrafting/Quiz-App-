@@ -27,15 +27,18 @@
 }
 
 .img {
+  letter-spacing: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 50px;
+  font-size: 60px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
   color: white;
   height: 500px;
   width: 100%;
-  background-image: url(../assets/tech-assts.gif);
+  background-image: url(/src/assets/tech-assts.gif);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -116,3 +119,5 @@ button:hover .play {
   transform: translateX(200%);
   transition-delay: 300ms;
 }
+
+
