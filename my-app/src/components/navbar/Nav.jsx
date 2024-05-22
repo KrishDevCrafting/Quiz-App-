@@ -63,7 +63,7 @@ const NavBar = () => {
         </nav>
       </div>
       <div className="img">
-        <p>CHALLEN YOUR BRAIN WITH GEEK QUIZ</p>
+        <p>CHALLENGE YOUR BRAIN WITH GEEK QUIZ</p>
       </div>
     </>
   );
