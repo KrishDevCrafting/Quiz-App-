@@ -4,7 +4,7 @@
   justify-content: space-between;
 
   color: white;
-  height: 500px;
+
   background-color: #222831;
 }
 #text-align {
@@ -22,3 +22,5 @@ li {
   padding: 5px;
   list-style: none;
 }
+
+
