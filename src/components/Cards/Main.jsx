@@ -1,6 +1,8 @@
 import React from "react";
 import "../Cards/Main.css";
 const Main = () => {
+  
+
   return (
     <>
       {/* section 2 started here */}

@@ -1,6 +1,11 @@
 import React from "react";
 import "./nav.css";
 const NavBar = () => {
+  const [data, setdata] = React.useState(0);
+
+  const increament = () => {
+    setdata(data + 1);
+  };
   return (
     <>
       <div className="main">
@@ -23,7 +28,7 @@ const NavBar = () => {
             </a>
           </div>
           <div>
-            <button>
+            <button onClick={increament}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 36 36"
@@ -59,11 +64,10 @@ const NavBar = () => {
               <span class="play">play</span>
             </button>
           </div>
-          q1
         </nav>
       </div>
       <div className="img">
-        <p>CHALLENGE YOUR BRAIN WITH GEEK QUIZ</p>
+        <p>CHALLENGE YOUR BRAIN WITH GEEK QUIZ{data}</p>
       </div>
     </>
   );
