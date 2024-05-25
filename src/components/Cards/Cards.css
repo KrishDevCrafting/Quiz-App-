@@ -4,7 +4,7 @@
 
 .main-box {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .child-box,
 .child-box-1 {
@@ -24,10 +24,11 @@
 different line */
 
 .card {
+  margin: 50px 10px 50px 10px;
   color: white;
-  width: 500px;
+  width: 400px;
   height: 300px;
-  background-image: url("https://i.pinimg.com/originals/d6/c7/a1/d6c7a145b32a562ff6bf8fa542b15e3b.gif");
+  /* background-image: url("https://i.pinimg.com/originals/d6/c7/a1/d6c7a145b32a562ff6bf8fa542b15e3b.gif"); */
   position: relative;
   display: grid;
   place-content: center;
@@ -42,7 +43,7 @@ different line */
 }
 
 #logo-main {
-  fill: #bd9f67;
+  fill: red;
 }
 
 #logo-second {
@@ -69,7 +70,7 @@ different line */
   font-size: 6px;
   text-transform: uppercase;
   padding: 0px 5px 0px 8px;
-  color: #bd9f67;
+  color: red;
   background: #243137;
   opacity: 0;
   letter-spacing: 7px;
@@ -88,14 +89,13 @@ different line */
   transition: all 1s ease-in-out;
 }
 
-.content .logo .logo1 {
-  height: 40px;
+/* .content .logo .logo1 {
   position: absolute;
   left: 0;
-}
+} */
 
 .content .logo .logo2 {
-  height: 100px;
+  height: 600px;
   position: absolute;
   left: 10px;
 }
@@ -159,11 +159,11 @@ different line */
   }
 
   10% {
-    border-right: 1px solid #bd9f67;
+    border-right: 1px solid red;
   }
 
   80% {
-    border-right: 1px solid #bd9f67;
+    border-right: 1px solid red;
   }
 
   100% {
@@ -176,7 +176,7 @@ different line */
     background: linear-gradient(
       90deg,
       rgba(189, 159, 103, 0) 90%,
-      rgb(189, 159, 103) 100%
+      rgb(189, 122, 103) 100%
     );
     opacity: 0;
   }
@@ -185,7 +185,7 @@ different line */
     background: linear-gradient(
       90deg,
       rgba(189, 159, 103, 0) 70%,
-      rgb(189, 159, 103) 100%
+      rgb(219, 19, 5) 100%
     );
     opacity: 1;
   }
@@ -194,7 +194,7 @@ different line */
     background: linear-gradient(
       90deg,
       rgba(189, 159, 103, 0) 70%,
-      rgb(189, 159, 103) 100%
+      rgb(179, 31, 5) 100%
     );
     opacity: 1;
   }
@@ -203,8 +203,31 @@ different line */
     background: linear-gradient(
       90deg,
       rgba(189, 159, 103, 0) 90%,
-      rgb(189, 159, 103) 100%
+      rgb(220, 44, 9) 100%
     );
     opacity: 0;
   }
+}
+
+.card-1 {
+  background-image: url("https://i.pinimg.com/originals/2c/1c/64/2c1c6400528c9ff32f446a6cdee6c125.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card-2 {
+  color: black;
+  font-size: 20px;
+  background-image: url("https://i.pinimg.com/originals/d6/c7/a1/d6c7a145b32a562ff6bf8fa542b15e3b.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card-3 {
+  color: maroon;
+  background-image: url("https://i.pinimg.com/originals/16/69/e5/1669e57761ccc67fa5e31a09a54764d0.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content-3 .logo-3 {
+  height: 50px;
 }
