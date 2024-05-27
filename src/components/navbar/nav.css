@@ -32,7 +32,7 @@
   justify-content: center;
   align-items: center;
   font-size: 60px;
-  font-family: "Roboto", sans-serif;
+  font-family: sans-serif;
   font-weight: 500;
   font-style: normal;
   color: white;
@@ -119,5 +119,3 @@ button:hover .play {
   transform: translateX(200%);
   transition-delay: 300ms;
 }
-
-

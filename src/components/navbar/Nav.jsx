@@ -1,11 +1,7 @@
 import React from "react";
 import "./nav.css";
+import Text from "../test/text";
 const NavBar = () => {
-  const [data, setdata] = React.useState(0);
-
-  const increament = () => {
-    setdata(data + 1);
-  };
   return (
     <>
       <div className="main">
@@ -28,7 +24,7 @@ const NavBar = () => {
             </a>
           </div>
           <div>
-            <button onClick={increament}>
+            <button>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 36 36"
@@ -67,7 +63,9 @@ const NavBar = () => {
         </nav>
       </div>
       <div className="img">
-        <p>CHALLENGE YOUR BRAIN WITH GEEK QUIZ{data}</p>
+        <p>
+          <Text />
+        </p>
       </div>
     </>
   );
