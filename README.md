@@ -16,7 +16,6 @@ Welcome to the Quiz App! This application is designed to provide an engaging and
 📬 Contact
 <br>
 ✨ Features
-<br>
 </h6>
 <div>
   <br>
@@ -35,17 +34,27 @@ Welcome to the Quiz App! This application is designed to provide an engaging and
 ✏️ Customizable Quizzes: Create and manage your own quizzes.
 </div>
 ⚙️ Installation
+<br>
 To get a local copy up and running, follow these steps:
-
+<br>
 Prerequisites
+<br>
 🟢 Node.js (version 14.x or later)
+<br>
 🔵 npm (version 6.x or later)
+<br>
 Clone the Repository
+<br>
 git clone https://github.com/example/quiz-app.git
+<br>
 cd quiz-app
+<br>
 Install Dependencies
+<br>
 npm install
+<br>
 Run the App
+<br>
 npm start
 
 
