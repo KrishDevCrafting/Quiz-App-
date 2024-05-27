@@ -18,13 +18,22 @@ Welcome to the Quiz App! This application is designed to provide an engaging and
 ✨ Features
 <br>
 </h6>
+<div>
+  <br>
 🔒 User Authentication: Secure login and registration system.
+  <br>
 🔄 Dynamic Quizzes: Quizzes are fetched dynamically from an API.
+  <br>
 ⚡ Real-time Results: Instant feedback on quiz completion.
+  <br>
 🏆 Leaderboard: Track top performers and compare scores.
+  <br>
 📱 Responsive Design: Optimized for both desktop and mobile devices.
+  <br>
 🌙 Dark Mode: User-friendly dark mode for comfortable usage at night.
+  <br>
 ✏️ Customizable Quizzes: Create and manage your own quizzes.
+</div>
 ⚙️ Installation
 To get a local copy up and running, follow these steps:
 
