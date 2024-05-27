@@ -1,6 +1,6 @@
 <h1>🎉 Quiz App 🎉</h1>
 Welcome to the Quiz App! This application is designed to provide an engaging and interactive quiz experience. The app continuously evolves, with new features and improvements regularly added. Explore the app, test your knowledge, and enjoy a seamless quiz-taking experience.
-<h6>
+<h4>
 📚 Table of Contents
 <br>
 ✨ Features
@@ -16,7 +16,7 @@ Welcome to the Quiz App! This application is designed to provide an engaging and
 📬 Contact
 <br>
 ✨ Features
-</h6>
+</h4>
 <div>
   <br>
 🔒 User Authentication: Secure login and registration system.
