@@ -60,18 +60,29 @@ npm start
 
 
 🚀 Usage
+<br>
 Starting a Quiz
+<br>
 📝 Register or log in to your account.
+<br>
 📚 Select a quiz from the available categories.
+<br>
 ⏳ Answer the questions within the given time limit.
+<br>
 📊 Submit your answers to see your score.
+<br>
 Creating a Custom Quiz
+<br>
 ➕ Navigate to the "Create Quiz" section.
+<br>
 🖊️ Fill in the quiz details and questions.
+<br>
 💾 Save your quiz to make it available for others.
+<br>
 🤝 Contributing
+<br>
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
-
+<br>
 🍴 Fork the Project
 🌟 Create your Feature Branch (git checkout -b feature/AmazingFeature)
 💻 Commit your changes (git commit -m 'Add some AmazingFeature')
