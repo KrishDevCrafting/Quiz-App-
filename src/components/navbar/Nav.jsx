@@ -1,6 +1,6 @@
 import React from "react";
 import "./nav.css";
-import Text from "../test/text";
+import Text from "./TextEffect/text";
 const NavBar = () => {
   return (
     <>

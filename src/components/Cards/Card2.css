@@ -1,0 +1,8 @@
+.main-card {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-around;
+}
+#card-2 {
+  background-image: url("https://i.pinimg.com/originals/a9/50/f4/a950f4fe89c0d22d07e31ae45a8af6a9.gif");
+}
