@@ -45,7 +45,7 @@ Prerequisites
 <br>
 Clone the Repository
 <br>
-git clone https://github.com/example/quiz-app.git
+git clone https://KrishDevCrafting/quiz-app.git
 <br>
 cd quiz-app
 <br>
