@@ -84,17 +84,24 @@ Creating a Custom Quiz
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 <br>
 🍴 Fork the Project
+<br>
 🌟 Create your Feature Branch (git checkout -b feature/AmazingFeature)
+<br>
 💻 Commit your changes (git commit -m 'Add some AmazingFeature')
+<br>
 🚀 Push to the Branch (git push origin feature/AmazingFeature)
+<br>
 🔁 Open a Pull Request
+<br>
 📜 License
+<br>
 Distributed under the MIT License. See LICENSE for more information.
-
+<br>
 📬 Contact
+<br>
 Your Name  - krishgeek@gmail.com
-
-Project Link: https://github.com/your-username/quiz-app
+<br>
+Project Link: https://KrishDevCrafting/quiz-app
 
 
 
