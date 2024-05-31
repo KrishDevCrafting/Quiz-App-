@@ -35,7 +35,7 @@ const Card = () => {
                 <div class="logo">
                   <div class="logo2">
                     <div className="logo3">
-                      <h1>lund</h1>
+                      <h1>Empty-Space</h1>
                     </div>
                   </div>
                   <span class="trail"></span>
