@@ -1,4 +1,5 @@
 import React from "react";
+import "./nav"
 import "./nav.css";
 import Text from "./TextEffect/text";
 const NavBar = () => {
