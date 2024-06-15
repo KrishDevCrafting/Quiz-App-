@@ -1,5 +1,5 @@
 .main-card {
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   display: flex;
   justify-content: space-around;
 }

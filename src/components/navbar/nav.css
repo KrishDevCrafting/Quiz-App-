@@ -9,9 +9,10 @@
 }
 
 #style {
+  
   margin-top: 10px;
   position: fixed;
-  width: 100%;
+  
   align-items: center;
   top: 0;
 top: 20px;
@@ -37,13 +38,13 @@ transition: top 0.3s ease-in-out;
   font-family: sans-serif;
   font-weight: 500;
   font-style: normal;
-  color: white;
+  color: #000;
   height: 500px;
   width: 100%;
-  background-image: url(/src/assets/tech-assts.gif);
+  /* background-image: url(/src/assets/tech-assts.gif);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 }
 
 #btn {
