@@ -1,3 +1,11 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -9,18 +17,18 @@
 }
 
 #style {
-  
-  margin-top: 10px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 15px;
   position: fixed;
-  
+
   align-items: center;
-  top: 0;
-top: 20px;
+  top: 0%;
+/* top: 20px; */
 transition: top 0.3s ease-in-out;
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
-  padding: 0 20px;
+  align-items: center;
+  
 }
 #box-nav {
   display: flex;
@@ -28,8 +36,11 @@ transition: top 0.3s ease-in-out;
 
   margin-left: 700px;
 }
+#btn-play{
+ margin-left: 20px;
+}
 
-.img {
+/* .img {
   letter-spacing: 10px;
   display: flex;
   justify-content: center;
@@ -41,12 +52,26 @@ transition: top 0.3s ease-in-out;
   color: #000;
   height: 500px;
   width: 100%;
-  /* background-image: url(/src/assets/tech-assts.gif);
+  background-image: url(/src/assets/tech-assts.gif);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; */
+  background-size: cover;
+} */
+.Dynamic-text-style{
+  font-family: "Rajdhani", sans-serif;
+  /* font-family: "Bebas Neue", sans-serif; */
+  font-weight: 400;
+  color: #fff;
+  
+  letter-spacing: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 90%;
+ 
+  font-weight: 500;
+  font-style: normal;
 }
-
 #btn {
   border-radius: 25px 25px 25px 25px;
   padding: 10px 50px 10px 50px;

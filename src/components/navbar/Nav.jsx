@@ -10,7 +10,7 @@ const NavBar = () => {
 {/* src/Testing */}
 
 
-
+{/* Star section is add */}
 <div class="stars">
         <div class="star"></div>
         <div class="star"></div>
@@ -64,6 +64,7 @@ const NavBar = () => {
         <div class="star"></div>
       </div>
 
+{/* This start section is ending */}
 
 
 
@@ -72,10 +73,7 @@ const NavBar = () => {
 
 
 
-
-
-
-    
+    {/* Nav-bar section Started */}
       <div className="main">
         <nav id="style">
           <a href="http://" target="_blank" rel="noopener noreferrer">
@@ -96,7 +94,7 @@ const NavBar = () => {
             </a>
           </div>
           <div>
-            <button>
+            <button id="btn-play">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 36 36"
@@ -134,7 +132,8 @@ const NavBar = () => {
           </div>
         </nav>
       </div>
-      <div className="img">
+      {/* End Nav-bar section */}
+      <div className="Dynamic-text-style">
         <p>
           <Text />
         </p>

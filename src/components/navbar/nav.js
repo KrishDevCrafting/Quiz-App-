@@ -5,9 +5,10 @@ window.addEventListener("scroll", () => {
     if (currentScroll > lastScrollTop) {
         // Scroll down
         document.getElementById("style").style.top = "-50px";
-    } else {
+    } else  {
         // Scroll up
-        document.getElementById("style").style.top = "0";
+        document.getElementById("style").style.top = "0px";
     }
     lastScrollTop = currentScroll;
 });
+
